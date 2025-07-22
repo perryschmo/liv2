@@ -1096,14 +1096,35 @@ h5,
   min-height: 500px;            /* lower min-height */
 }
 
-@media (max-width: 991.98px) {
-  .site-section-cover,
-  .site-section-cover .container > .row {
-    height: calc(70vh - 300px);
-    min-height: 400px;
-    padding-bottom: 60px; /* 👈 add more padding underneath */
+@media (max-width: 767.98px) {
+  .site-logo a {
+    font-size: 16px;
+    display: inline-block;
+    line-height: 1.2;
+  }
+
+  .site-section-cover h1 {
+    font-size: 28px;
+    line-height: 1.3;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  .site-section-cover .lead {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .site-section-cover {
+    padding: 80px 20px 120px; /* More spacing below */
+  }
+
+  .site-section-cover .col-lg-10 {
+    padding: 0 10px;
   }
 }
+
 
 
 
