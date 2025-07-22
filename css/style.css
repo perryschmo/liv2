@@ -1101,8 +1101,10 @@ h5,
   .site-section-cover .container > .row {
     height: calc(70vh - 300px);
     min-height: 400px;
+    padding-bottom: 60px; /* 👈 add more padding underneath */
   }
 }
+
 
 
 
